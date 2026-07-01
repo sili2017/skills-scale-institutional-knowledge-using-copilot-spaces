@@ -18,6 +18,18 @@ Cross-cutting concerns such as **risk management**, **stakeholder communication*
 
 ---
 
+## How the Process Is Organized
+
+OctoAcme uses a structured, iterative project management approach that follows a clear lifecycle: initiation, planning, execution, release, and retrospective. Work begins by validating the business need, defining measurable success criteria, aligning stakeholders, and deciding whether an idea is ready to move forward. Once approved, the team turns the initiative into an actionable plan by building a prioritized backlog, estimating work, documenting dependencies and risks, and defining the release timeline and Definition of Done. This creates a lightweight but disciplined foundation for delivery.
+
+During execution, OctoAcme emphasizes predictable team rhythms and visible tracking. Daily standups focus on progress, blockers, and dependencies, while weekly delivery syncs and stakeholder updates keep leadership informed about status, risks, and decisions needed. The team uses a project board with standard workflow columns (Backlog, Ready, In Progress, In Review, QA, Done), and PRs are kept small when possible, linked to issues, and reviewed against acceptance criteria. This makes day-to-day work easy to follow and helps the team manage flow from task assignment through review and completion.
+
+The process is supported by clearly defined roles and personas. Project Managers coordinate delivery, schedules, risks, and communications; Product Managers define outcomes, prioritize the backlog, and measure success; Developers implement features, write tests, and participate in reviews; QA functions validate acceptance criteria and quality; and Stakeholders provide input and approvals. The documentation also stresses clear ownership, psychological safety, and data-informed decisions, so teams can collaborate effectively while maintaining accountability and focus on customer value.
+
+Quality assurance is built into the process rather than treated as a final step. OctoAcme expects unit tests for new logic, integration tests where appropriate, end-to-end smoke tests for critical flows, security scanning in CI, and manual QA when needed for feature acceptance. Releases require passing CI and security checks, documented rollback plans, and post-deploy verification. Risks and blockers are tracked in a simple register, escalated through a defined path when needed, and revisited regularly. After each sprint, release, or incident, retrospectives capture lessons learned and action items so the team can continuously improve its workflows and documentation.
+
+---
+
 ## Process Documents
 
 | Document | Description |
